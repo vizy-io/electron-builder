@@ -1,7 +1,7 @@
 {
   "name": "@vizy-io/electron-builder",
   "version": "0.0.1",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*",
     "test"
