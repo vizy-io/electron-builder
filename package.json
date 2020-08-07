@@ -1,6 +1,7 @@
 {
-  "name": "@electron-builder/monorepo",
-  "private": true,
+  "name": "@vizy-io/electron-builder",
+  "version": "0.0.1",
+  "private": false,
   "workspaces": [
     "packages/*",
     "test"
@@ -28,7 +29,7 @@
     "////": "pip3 install mkdocs-material mkdocs pymdown-extensions markdown-include Pygments --upgrade"
   },
   "//": "repository must be specified otherwise conventional-changelog will use forked repo (currently cloned)",
-  "repository": "https://github.com/electron-userland/electron-builder",
+  "repository": "vizy-io/electron-builder",
   "///": "All dependencies for all packages (hoisted)",
   "////": "All typings are added into root `package.json` to avoid duplication errors in the IDE compiler (several `node.d.ts` files).",
   "dependencies": {
